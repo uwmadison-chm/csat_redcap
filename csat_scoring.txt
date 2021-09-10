@@ -250,9 +250,9 @@ cool_dry = T
 warm_dry = B
 
 lifestyle	{lifestyle tendency}
-organized = L
-stable = T
-unplanned = B
+organized = T
+stable = B
+unplanned = L
 
 life_approach	{approach to life}
 strive_to_get_ahead = T
