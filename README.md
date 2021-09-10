@@ -7,4 +7,4 @@ Output is in the `output` folder; `output/csat.zip` is a finished instrument rea
 
 The `rebuild` script will build a new REDCap instrument zip file.
 
-Written by Nate Vack <njvack@wisc.edu>. Yes, I know it is terrible.
+Written by Nate Vack [<njvack@wisc.edu>](mailto:njvack@wisc.edu). Yes, I know it is terrible.
