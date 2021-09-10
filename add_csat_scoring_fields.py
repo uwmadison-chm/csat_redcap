@@ -59,7 +59,7 @@ CALC_ROW_PROTOTYPE = {
     'Form Name': 'csat',
     'Field Type': 'calc',
     'Required Field?': 'y',
-    'Field Annotation': '@HIDDEN-SURVEY'
+    # 'Field Annotation': '@HIDDEN-SURVEY'
 }
 
 # Denominator is 50 if you answer menstuation questions, 48 otherwise
