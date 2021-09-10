@@ -1,0 +1,10 @@
+#!/bin/bash
+# Make a new copy of output/llers.zip, for uploading to REDCap.
+
+rm output/csat.zip
+
+./add_csat_scoring_fields.py > output/instrument.csv
+cd output
+zip csat.zip *
+cd ..
+

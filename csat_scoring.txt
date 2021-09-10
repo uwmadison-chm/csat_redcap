@@ -1,0 +1,260 @@
+height	{height perception}
+short = L
+average = T
+above_average = B
+unusually_tall = L
+
+posture	{posture perception}
+erect = B
+slightly_stooped_or_slumped = L
+very_stooped_or_slumped = L
+average_not_erect_stooped_or_slumped = T
+
+weight	{weight perception}
+underweight = L
+average = T
+overweight = B
+
+frame	{body frame perception}
+strong_stocky = B
+average = T
+thin_light = L
+
+skin	{skin perception}
+warm_oily = T
+rough_dry = L
+cool_smooth = B
+
+skin_sun	{skin exposed to sun}
+becomes_red_and_rarely_tans = T
+tans_without_sunburn = L
+darkens_after_a_mild_sunburn = B
+
+hair_texture	{hair texture}
+dry_coarse_curly = L
+fine_straight = T
+thick_wavy_healthy_lustrous = B
+
+hair_2	{hair tendency}
+dandruff_and_split_ends = L
+premature_greying_and_baldness = T
+greasy_with_excess_oil = B
+
+eyes	{eye tendency}
+prone_to_redness_and_irritation = T
+dry = L
+well_lubricated = B
+
+joints	{joints tendency}
+flexible = T
+stiff_with_cracking_sounds = L
+well_lubricated_with_few_cracking_sounds = B
+
+nails	{nails tendency} MISSING
+strong_thick = B
+thin_brittle = L
+soft_smooth = T
+
+skin_2	{skin tendency} MISSING
+prone_to_chapping_corns_calluses_cracked_heels = L
+sensitive_prone_to_rashes_acne_freckles_moles = T
+moist_not_prone_to_skin_irritations = B
+
+teeth	{teeth perception} MISSING
+even_large_strong = B
+prone_to_cavities_bleeding_gums_canker_sores = T
+sensitive_uneven_gums_may_recede_early = L
+
+appetite	{appetite perception}
+moderate = B
+irregular = L
+excellent = T
+
+metabolic_rate	{metabolic rate perception}
+high = T
+moderate = (no code, not tallied)
+low = B
+fluctuating = L
+
+menstruation	{natural menstruation quality}
+regular_in_duration = T
+long_duration_heavy = B
+irregular_scanty = L
+not_applicable = (no code, not tallied)
+
+menstruation_occur	{occurrences during menstruation}
+cramping_bloating_lethargy = B
+anxiety_insomnia_moodiness = L
+irritability_rashes_headaches_craving = T
+not_applicable = (no code, not tallied)
+
+blood_circ	{blood circulation quality, perception}
+irregular = L
+good = T
+weak = B
+
+bowel_movements	{bowel movements tendency}
+frequent_loose = T
+regular_formed = B
+irregular_periodic_constipation = L
+
+easygoingness	{easygoingness perception}
+easy_going = B
+goal_oriented = T
+free_spirited = L
+
+sweat	{sweat quality}
+minimal = L
+moderate = B
+plentiful = T
+
+voice	{voice tendency}
+be_loud_distinct = T
+be_low_soft = B
+vary_in_volume = L
+
+energy_level	{energy level perception}
+steady = B
+variable_or_low = L
+high = T
+
+exercise	{exercise tendency}
+vigorous_exercise_which_refreshes_me = T
+vigorous_exercise_but_i_quickly_get_exhausted = L
+moderate_sustained_exercise = (B-T, but no code, not tallied)
+mild_if_any_exercise = B
+
+sleep	{sleep quality}
+deep_long = B
+light_irregular = L
+good_but_irregular_at_times = T
+
+sex_drive	{sex drive tendency}
+high_with_passionate_desire = T
+moderate_with_slow_arousal = B
+low_with_no_arousal = (B-L, but no code, not tallied)
+variable_with_active_fantasy_life = L
+
+symptom_combo	{symptom combination tendency}
+insomnia_anxiety_ringing_in_ears_shifting_pain = L
+colds_water_retention_weight_gain_slow_digestion = B
+fever_infection_acid_reflux_nausea = T
+
+stress_reaction	{stress reaction tendency}
+angry_judgmental_irritable = T
+fearful_insecure_tense = L
+complacent_inflexible_procrastinating = B
+
+personality	{personality qualities}
+lively_creative_flexible_enthusiastic_sensitive = L
+ambitious_competitive_goal_directed_motivated_adventurous = T
+calm_persistent_considerate_serious_humble = B
+
+upset	{upset tendency}
+demanding_frustrated_hot_tempered = T
+anxious_restless_indecisive = L
+withdrawn_inactive_resentful = B
+
+dreams	{dreams tendency}
+busy_incoherent = L
+adventurous_intense = T
+calm_coherent = B
+
+learning_style	{learning style tendency}
+relaxed_steady = B
+quick_focused = T
+variable_unfocused = L
+
+speech	{speech quality}
+excited_talkative_jumping_from_topic_to_topic = L
+convincing_confident_argumentative = T
+deliberate_pleasant_not_talkative = B
+
+work_approach	{work approach tendency}
+methodical_focused = T
+practical_managerial = B
+imaginative_original = L
+
+happiest_when	{happiest context}
+with_a_group_of_people_talking_laughing_singing_dancing = L
+with_friends_engaging_in_competitive_adventurous_activities = T
+having_a_quiet_comfortable_time_alone_or_with_a_few_good_friends = B
+
+dealing_other_people	{tendency when dealing with other people}
+courageous_determined = T
+excited_imaginative = L
+loving_compassionate = B
+
+negative_tendancy	{negative tendency perception}
+greed_desire = L
+anger_hostility = T
+confusion_closed_mindedness = B
+
+learning	{learning tendency}
+easily_but_i_quickly_forget = L
+easily_and_i_remember_what_i_learn = T
+methodically_and_i_apply_learning_for_a_long_time = B
+
+confidence	{confidence level perception}
+high_on_the_surface_but_i_lack_confidence_inside = T
+low_on_the_surface_but_i_have_inner_confidence = B
+low_i_lack_confidence_on_the_surface_and_inside = L
+high_on_the_surface_high_inner_confidence = (B-T, but no code)
+
+mind	{mental tendency}
+restless = L
+goal_directed = T
+satisfied = B
+
+veins	{vein appearance}
+highly_visible = L
+visible = T
+faintly_visible = B
+
+relaxation	{relaxation approach}
+read_engage_in_quiet_activities = B
+exercise_engage_in_competitive_activities = T
+socialize_engage_in_artistic_activities = L
+
+friendships	{friendships characterization}
+i_know_many_people_my_friendships_are_brief_and_lack_closeness = L
+i_make_friends_easily_and_have_many_good_friends = T
+i_slowly_make_friends_and_develop_lasting_friendships_with_a_few_people = B
+
+change_reactions	{reactions to change}	multi
+anxious = L
+flexible = L
+reactive = T
+direct = T
+resistant = B
+cautious = B
+
+whats_yummy	{food beverages enjoyed}
+spicy_foods_french_fries_meat_alcohol = T
+sweets_snacks_starchy_foods_fruit_juices = B
+salads_soups_coffee_energy_drinks = L
+
+spending	{spending habits tendency}
+frugal = B
+sensible = T
+spontaneous = L
+
+pain	{pain response}
+withdrawn = B
+hypersensitive = L
+impatient = T
+
+climate	{preferred climate}
+hot_humid = L
+cool_dry = T
+warm_dry = B
+
+lifestyle	{lifestyle tendency}
+organized = L
+stable = T
+unplanned = B
+
+life_approach	{approach to life}
+strive_to_get_ahead = T
+be_content = B
+question_and_seek = L
