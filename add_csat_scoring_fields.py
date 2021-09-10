@@ -58,7 +58,8 @@ MENS_BRANCH_LOGIC = '[csat_q_menstruate] = "1"'
 CALC_ROW_PROTOTYPE = {
     'Form Name': 'csat',
     'Field Type': 'calc',
-    'Required Field?': 'y'
+    'Required Field?': 'y',
+    'Field Annotation': '@HIDDEN-SURVEY'
 }
 
 # Denominator is 50 if you answer menstuation questions, 48 otherwise
